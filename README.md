@@ -43,7 +43,7 @@ The system is designed to help monitor restricted areas and improve safety by pr
 
 ## ▶️ How to Run
 
-1. Clone the repository:
+1. Clone the repository:https://github.com/santhiya974/wild-animal-intrusion-detection.git
 
 2. Install required packages:
 2. Install required packages:eg: pip install ultralytics opencv-python pygame
