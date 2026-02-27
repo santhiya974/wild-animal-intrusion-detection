@@ -11,9 +11,9 @@ pygame.mixer.init()
 
 # Function to send email notification
 def send_email(animal):
-    sender_email = "latha200406@gmail.com"
-    receiver_email = "latha200406@gmail.com"
-    password = "vebd cmqy wkvp qsbq"  # Use App Password if 2FA is enabled
+    sender_email = "sender@gmail.com"
+    receiver_email = "receiver@gmail.com"
+    password = "abcd efgh ijkl mboof"  # Use App Password if 2FA is enabled
 
     subject = f"Animal Detected: {animal}"
     body = f"The following animal has been detected: {animal}"
@@ -102,6 +102,7 @@ cv2.destroyAllWindows()
 # Stop all sounds and quit mixer on exit
 pygame.mixer.stop()
 pygame.mixer.quit()
+
 
 
 
